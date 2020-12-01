@@ -15,8 +15,17 @@ Liste des miroirs : comment choisir sur la base de la vitesse de téléchargemen
 
 * Mise à jour de l'ensemble du système :
 
-    sudo pacman -Syu
+       sudo pacman -Syu
 
 * Installer des paquets :
 
-    sudo pacman -S *paquet1 paquet2 paquet3*
+        sudo pacman -S *paquet1 paquet2 paquet3*
+
+* Supprimer des paquets :
+    * Sans éliminer les dépendances :
+
+            sudo pacman -R *paquet*
+
+    * En éliminant les dépedances :
+    
+            sudo pacman -Rs *paquet*
