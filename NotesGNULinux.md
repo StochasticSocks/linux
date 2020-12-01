@@ -3,7 +3,7 @@
 ## Cadre général
 
 
-## Gestion des paquets sous Archlinux
+## Gestion des paquets sous Archlinux
 
 ### Configuration de base de pacman
 
@@ -11,8 +11,12 @@ Liste des miroirs : comment choisir sur la base de la vitesse de téléchargemen
 
 
 
-### Commandes de base pacman
+### Commandes de base pacman
 
-Mise à jour de l'ensemble du système :
+* Mise à jour de l'ensemble du système :
 
     sudo pacman -Syu
+
+* Installer des paquets :
+
+    sudo pacman -S *paquet1 paquet2 paquet3*
