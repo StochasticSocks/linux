@@ -1,0 +1,18 @@
+# Notes sur les systèmes GNU/Linux
+
+## Cadre général
+
+
+## Gestion des paquets sous Archlinux
+
+### Configuration de base de pacman
+
+Liste des miroirs : comment choisir sur la base de la vitesse de téléchargement et mettre à jour la mirrorlist ?
+
+
+
+### Commandes de base pacman
+
+Mise à jour de l'ensemble du système :
+
+    sudo pacman -Syu
